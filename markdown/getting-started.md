@@ -2,9 +2,9 @@
 - [Cheat Sheets from RStudio](#cheat-sheets-from-rstudio)
 	- [RStudio](#rstudio)
 	- [Basis](#basis)
-	- [Extra Packages](extra-packages)
-	- [`LaTeX` and `Markdown`](latex-and-markdown)
-- [Quick Start](quick-start)
+	- [Extra Packages](#extra-packages)
+	- [`LaTeX` and `Markdown`](#latex-and-markdown)
+- [Quick Start](#quick-start)
 
 
 
