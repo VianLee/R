@@ -6,6 +6,7 @@
 	- Basis
 	- Extra Packages
 	- `LaTeX` and `Markdown`
+- Quick Start from *Advanced R*
 
 <!-- /MarkdownTOC -->
 
@@ -41,9 +42,12 @@ curl -O https://wch.github.io/latexsheet/latexsheet-a4.pdf
 - A tabular guide to [machine learning](https://github.com/rstudio/cheatsheets/raw/master/Machine%20Learning%20Modelling%20in%20R.pdf).
 - Deep learning with [Keras](https://github.com/rstudio/cheatsheets/raw/master/keras.pdf).
 - Thematic maps with [cartography](https://github.com/rstudio/cheatsheets/raw/master/cartography.pdf).
-- []().
 
 
 ## `LaTeX` and `Markdown`
 - A reference to the [LaTeX](https://wch.github.io/latexsheet/) typesetting language.
 - [`R` markdown](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf).
+
+
+
+# Quick Start from [*Advanced R*](https://adv-r.hadley.nz/)
