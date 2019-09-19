@@ -13,3 +13,9 @@
 	- How to Use RStudio
 	- How to Fix the Problems
 - [Getting Started with `R`](markdown/getting-started.md#contents)
+	- Cheat Sheets from RStudio
+		- RStudio
+		- Basis
+		- Extra Packages
+		- `LaTeX` and `Markdown`
+	- Quick Start

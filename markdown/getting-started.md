@@ -1,14 +1,11 @@
 # Contents
-<!-- MarkdownTOC -->
+- [Cheat Sheets from RStudio](#cheat-sheets-from-rstudio)
+	- [RStudio](#rstudio)
+	- [Basis](#basis)
+	- [Extra Packages](extra-packages)
+	- [`LaTeX` and `Markdown`](latex-and-markdown)
+- [Quick Start](quick-start)
 
-- Cheat Sheets from RStudio
-	- RStudio
-	- Basis
-	- Extra Packages
-	- `LaTeX` and `Markdown`
-- Quick Start from *Advanced R*
-
-<!-- /MarkdownTOC -->
 
 
 # Cheat Sheets from [RStudio](https://www.rstudio.com/resources/cheatsheets/)
@@ -50,4 +47,5 @@ curl -O https://wch.github.io/latexsheet/latexsheet-a4.pdf
 
 
 
-# Quick Start from [*Advanced R*](https://adv-r.hadley.nz/)
+# Quick Start
+See [Appendix Basis](markdown/appendix/basis.md).
