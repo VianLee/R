@@ -7,3 +7,7 @@
 		- Basis
 		- RStudio
 		- Data Science
+- [Preparation](markdown/preparation.md#preparation)
+	- Download and Install the Latest `R`
+	- Download and Install the Latest RStudio
+	- How to Use RStudio

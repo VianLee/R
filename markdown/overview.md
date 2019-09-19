@@ -16,7 +16,7 @@ After all, the set of programming languages is [perfect](http://mathworld.wolfra
 
 ## Learning Resources
 ### Comprehensive Resources
-1. Archived webinars, videos and learning roadmap from [RStuidio](https://www.rstudio.com/resources/).
+1. Archived webinars, videos and learning roadmap from [RStuidio](https://www.rstudio.com/resources/) and its [GitHub](https://github.com/rstudio/webinars).
 
 ### Basis
 1. [*Advanced R*](https://adv-r.hadley.nz/) and its [GitHub](https://github.com/hadley/adv-r).
