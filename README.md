@@ -12,3 +12,4 @@
 	- Download and Install the Latest RStudio
 	- How to Use RStudio
 	- How to Fix the Problems
+- [Getting Started with `R`](markdown/getting-started.md#contents)
