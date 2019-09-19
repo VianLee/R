@@ -48,4 +48,4 @@ curl -O https://wch.github.io/latexsheet/latexsheet-a4.pdf
 
 
 # Quick Start
-See [Appendix Basis](markdown/appendix/basis.md).
+See [Appendix Basis](appendix/basis.md).
