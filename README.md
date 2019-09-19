@@ -12,3 +12,18 @@ Therefore, if you have enough time, you can learn both `R` and `Python`, but for
 Moreover, we can do lots of interesting projects efficiently by integrating `Python` and `R` with [rpython](http://rpython.r-forge.r-project.org/) and [rpy2](https://pypi.org/project/rpy2/), 
 
 After all, the set of programming languages is [perfect](http://mathworld.wolfram.com/PerfectSet.html), which means it has no isolated points.
+
+
+## Learning Resources
+### Basis
+1. [*Advanced R*](https://adv-r.hadley.nz/) and its [GitHub](https://github.com/hadley/adv-r).
+2. [Cheat sheets](https://www.rstudio.com/resources/cheatsheets/).
+3. Books recommended by [zhihu](https://www.zhihu.com/question/21654166).
+
+### RStudio
+1. [RStudio documentation](http://www.rstudio.com/ide/docs/) and its [GitHub](https://github.com/rstudio/rstudio).
+2. [`R` Markdown](https://rmarkdown.rstudio.com/lesson-1.html).
+3. [Frequently Asked Questions](https://support.rstudio.com/hc/en-us).
+
+### Data Science
+1. [*R for Data Science*](https://r4ds.had.co.nz/).
