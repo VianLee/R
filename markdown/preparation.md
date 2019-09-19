@@ -21,3 +21,16 @@ Install RStudio as you normally install other softwares.
 
 ## How to Use RStudio
 Here comes an official [cheat sheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) and a [webinar series](https://resources.rstudio.com/wistia-rstudio-essentials-2/rstudioessentialsprogrammingpart1-2) of RStudio.
+
+
+## How to Fix the Problems
+Firstly, you should know [how to ask questions the smart way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md).
+
+Secondly, you have several efficient ways to ask for help (the following ways are listed in descending order of priority),
+1. from books or official documents;
+2. from existing on-line resources, such as resources mentioned above and [RStudio SUpport](https://support.rstudio.com/hc/en-us);
+3. from search engines based on keywords, such as [Bing](https://cn.bing.com/);
+4. from classmates or teachers;
+5. from community, such as [RStudio Community](https://support.rstudio.com/hc/en-us).
+
+Finally, after knowing how to solve the problems, you can get start with `R`.

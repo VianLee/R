@@ -11,3 +11,4 @@
 	- Download and Install the Latest `R`
 	- Download and Install the Latest RStudio
 	- How to Use RStudio
+	- How to Fix the Problems
