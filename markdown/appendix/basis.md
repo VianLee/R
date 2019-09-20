@@ -1,33 +1,29 @@
 # Contents
-<!-- MarkdownTOC -->
-
-- Getting Help
-	- Accessing the Help Files
-	- More About An Object
-- Using Packages
-- Working Directory
-- Vectors
-	- Creating Vectors
-	- Vector Functions
-	- Selecting Vector Elements
-		- By Position
-		- By Value
-		- Named Vectors
-- Programming
-	- For Loop
-	- While Loop
-	- If Statements
-	- Functions
-	- Reading and Writing Data
-- Matrices
-- Lists
-- Data Frames
-- Strings
-- Factors
-- Statistics
-- Distributions
-
-<!-- /MarkdownTOC -->
+- [Getting Help](#getting-help)
+	- [Accessing the Help Files](#accessing-the-help-files)
+	- [More About An Object](#more-about-an-object)
+- [Using Packages](#using-packages)
+- [Working Directory](#working-directory)
+- [Vectors](#vectors)
+	- [Creating Vectors](#creating-vectors)
+	- [Vector Functions](#vector-functions)
+	- [Selecting Vector Elements](#selecting-vector-elements)
+		- [By Position](#by-position)
+		- [By Value](#by-value)
+		- [Named Vectors](#named-vectors)
+- [Programming](#programming)
+	- [For Loop](#for-loop)
+	- [While Loop](#while-loop)
+	- [If Statements](#if-statements)
+	- [Functions](#functions)
+	- [Reading and Writing Data](#reading-and-writing-data)
+- [Matrices](#matrices)
+- [Lists](#lists)
+- [Data Frames](#data-frames)
+- [Strings](#strings)
+- [Factors](#factors)
+- [Statistics](#statistics)
+- [Distributions](#distributions)
 
 
 
