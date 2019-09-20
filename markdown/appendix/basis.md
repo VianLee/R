@@ -1,3 +1,36 @@
+# Contents
+<!-- MarkdownTOC -->
+
+- Getting Help
+	- Accessing the Help Files
+	- More About An Object
+- Using Packages
+- Working Directory
+- Vectors
+	- Creating Vectors
+	- Vector Functions
+	- Selecting Vector Elements
+		- By Position
+		- By Value
+		- Named Vectors
+- Programming
+	- For Loop
+	- While Loop
+	- If Statements
+	- Functions
+	- Reading and Writing Data
+- Matrices
+- Lists
+- Data Frames
+- Strings
+- Factors
+- Statistics
+- Distributions
+
+<!-- /MarkdownTOC -->
+
+
+
 # Getting Help
 ## Accessing the Help Files
 Get help of a particular function,
@@ -275,3 +308,185 @@ Find *x* in: *m\*x=n*,
 ```R
 solve(m, n)
 ```
+
+
+
+# Lists
+A list is a collection of elements which can be of different types,s
+```R
+l <- list(x=1:5, y=c('a', 'b'))
+```
+
+Second element of *l*,
+```R
+l[[2]]
+```
+
+New list with only the first element,
+```R
+l[1]
+```
+
+Element named *x*,
+```R
+l$x
+```
+
+New list with only element named *y*,
+```R
+l['y']
+```
+
+
+
+# Data Frames
+A special case of a list where all elements are the same length,
+```R
+df <- data.frame(x=1:3, y=c('a', 'b', 'c'))
+```
+|x|y|
+|-|-|
+|1|a|
+|2|b|
+|3|c|
+
+List subsetting,
+```R
+df$x
+df[[2]]
+```
+
+See the full data frame,
+```R
+View(df)
+```
+
+See the first 6 rows,
+```R
+head(df)
+```
+
+Matrix subsetting,
+```R
+df[ , 2]
+df[2, ]
+df[2, 2]
+```
+
+Number of rows,
+```R
+nrow(df)
+```
+
+Number of columns,
+```R
+ncol(df)
+```
+
+Number of columns and rows,
+```R
+dim(df)
+```
+
+Bind columns,
+```R
+cbind
+```
+
+Bind rows,
+```Rbind
+```
+
+
+
+# Strings
+Join multiple vectors together,
+```R
+paste(x, y, sep=' ')
+```
+
+Join elements of a vector together,
+```R
+paste(x, collapse=' ')
+```
+
+Find regular expressoin matches in *x*,
+```R
+grep(pattern, x)
+```
+
+Replace matches in *x* with a string,
+```R
+gsub(pattern, replace, x)
+```
+
+Convert to uppercase,
+```R
+toupper(x)
+```
+
+Convert to lowercase,
+```R
+tolower(x)
+```
+
+Number of characters in a string,
+```R
+nchar(x)
+```
+
+
+
+# Factors
+Turn a vector into a factor. Can set the levels of the factor and the order,
+```R
+factor(x)
+```
+
+Turn a numeric vector into a factor by 'cutting' into sections,
+```R
+cut(x, breaks=4)
+```
+
+
+
+# Statistics
+Linear model,
+```R
+lm(y~x, data=df)
+```
+
+Generalized linear model,
+```R
+glm(y~x, data=df)
+```
+
+Perform a t-test for difference between means,
+```R
+t.test(x, y)
+```
+
+Perform a t-test for paired data,
+```R
+pairwise.t.test
+```
+
+Test fir a difference between proportions,
+```R
+prop.test
+```
+
+Analysis of variance,
+```R
+aov
+```
+
+
+
+# Distributions
+|      |Random Variates|Density Function|Cumulative Distribution|Quantile|
+|------|------|------|------|------|
+|Normal|`rnorm`|`dnorm`|`pnorm`|`qnorm`|
+|Poisson|`rpois`|`dpois`|`ppois`|`qpois`|
+|Binomial|`rbinom`|`dbinom`|`pbinom`|`qbinom`|
+|Uniform|`runif`|`dunif`|`punif`|`qunif`|
