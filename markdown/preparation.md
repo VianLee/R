@@ -35,9 +35,9 @@ Firstly, you should know [how to ask questions the smart way](https://github.com
 
 Secondly, you have several efficient ways to ask for help (the following ways are listed in descending order of priority),
 1. from books or official documents;
-2. from existing on-line resources, such as resources mentioned above and [RStudio SUpport](https://support.rstudio.com/hc/en-us);
+2. from existing on-line resources, such as resources mentioned above and [RStudio Support](https://support.rstudio.com/hc/en-us);
 3. from search engines based on keywords, such as [Bing](https://cn.bing.com/);
 4. from classmates or teachers;
-5. from community, such as [RStudio Community](https://support.rstudio.com/hc/en-us), [StackOverflow](https://stackoverflow.com) and [StackExchange](https://stackexchange.com/).
+5. from community, such as [RStudio Community](https://community.rstudio.com/), [StackOverflow](https://stackoverflow.com) and [StackExchange](https://stackexchange.com/).
 
 Finally, after knowing how to solve the problems, you can get start with `R`.

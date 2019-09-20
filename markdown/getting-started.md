@@ -48,4 +48,4 @@ curl -O https://wch.github.io/latexsheet/latexsheet-a4.pdf
 
 
 # Quick Start
-See [Appendix Basis](appendix/basis.md), which references from [Base `R`](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf).
+- See [Appendix Basis](appendix/basis.md#contents), which references from [Base `R`](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf).
