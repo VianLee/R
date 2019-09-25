@@ -13,7 +13,7 @@ The latest `R` is [`R`-3.6.1](https://cran.r-project.org/doc/manuals/r-release/N
 - [Mac OS X](https://cran.r-project.org/bin/macosx/R-3.6.1.pkg)
 - For Linux users, if you do not know how to install `R`, it is time to relearn Linux.
 
-Install `R` as you normally install other softwares.
+Install `R` as you normally install other software.
 
 
 # Download and Install the Latest RStudio
@@ -23,7 +23,7 @@ The latest RStudio is [RStudio 1.2.1578](https://www.rstudio.com/rstudio/release
 - [Mac OS X](https://download1.rstudio.org/desktop/macos/RStudio-1.2.1578.dmg)
 - For Linux users, if you do not know how to install RStudio, it is time to relearn Linux.
 
-Install RStudio as you normally install other softwares.
+Install RStudio as you normally install other software.
 
 
 # How to Use RStudio
@@ -40,4 +40,4 @@ Secondly, you have several efficient ways to ask for help (the following ways ar
 4. from classmates or teachers;
 5. from community, such as [RStudio Community](https://community.rstudio.com/), [StackOverflow](https://stackoverflow.com) and [StackExchange](https://stackexchange.com/).
 
-Finally, after knowing how to solve the problems, you can get start with `R`.
+Finally, after knowing how to solve the problems, you can get started with `R`.
