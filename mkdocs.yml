@@ -1,0 +1,11 @@
+site_name: R Script
+docs_dir: markdown
+
+nav:
+- Home: 'index.md'
+- User Guide:
+    - 'Overview of R': 'overview.md'
+    - 'Preparation': 'preparation.md'
+    - 'Getting Started with R': 'getting-started.md'
+- Appendix:
+    - 'Basic': 'appendix/basis.md'

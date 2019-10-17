@@ -1,0 +1,52 @@
+% !Mode:: "TeX:UTF-8"
+% !TEX program  = lualatex
+% latexmk -lualatex -shell-escape -f main
+\nonstopmode
+% TODO
+% =======
+%	1. The relative path in markdown file
+% 	2. The anchor point
+
+\documentclass[openany, a4paper]{book}
+	% Packages
+	\usepackage{hyperref}
+	\usepackage{minted}
+	\usepackage{fontawesome}
+	\usepackage[Glenn]{fncychap}
+	% Markdown configurations
+	\usepackage[footnotes, definitionLists, hashEnumerators, hybrid,
+		smartEllipses, tightLists=false, fencedCode=true]{markdown}
+		\markdownSetup{
+			renderers = {
+				link = {\href{#2}{#1}}
+			},
+			rendererPrototypes={
+				headingOne = {\chapter{#1}},
+				headingTwo = {\section{#1}},
+				headingThree = {\subsection{#1}},
+				headingFour = {\subsubsection{#1}},
+				headingFive = {\paragraph{#1}\leavevmode},
+				horizontalRule = {\clearpage}
+			}
+		}
+	% Macros
+	\newcommand{\love}{\textcolor{red}{\faHeart}}
+	% Information
+	\title{\emph{R} Learning Route and Resources}
+	\author{Vian Lee \love\ Iydon Liang}
+	\date{September 25, 2019}
+\begin{document}
+	\maketitle\tableofcontents\clearpage
+
+	\part{Overview of \emph{R}}
+	\markdownInput{../markdown/overview.md}\clearpage
+
+	\part{Preparation}
+	\markdownInput{../markdown/preparation.md}\clearpage
+
+	\part{Getting Started with \emph{R}}
+	\markdownInput{../markdown/getting-started.md}\clearpage
+
+	\part{Appendix}\appendix
+	\markdownInput{../markdown/appendix/basis.md}
+\end{document}
